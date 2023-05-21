@@ -1,1 +1,1 @@
-worker: python3 ses.py
+worker: python3 -m Mills
