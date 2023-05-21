@@ -1,1 +1,1 @@
-worker: python ses.py
+worker: python3 ses.py
