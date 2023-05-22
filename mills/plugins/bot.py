@@ -45,7 +45,7 @@ async def _(m,lang):
         name = m.full_name(),
         id = m.sender_id,
     )
-    SUPPORT_CHAT = await m.adb.get_key("SUPPORT_CHAT") or "IXI_V1"
+    SUPPORT_CHAT = await m.adb.get_key("SUPPORT_CHAT") or "IXI_Groub"
     buttons = [
         [
             Button.url("Support 🇪🇬", f'https://t.me/{SUPPORT_CHAT}'),
