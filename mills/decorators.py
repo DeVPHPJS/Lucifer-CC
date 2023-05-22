@@ -177,10 +177,9 @@ def in_pattern(pattern=None, owner=False, **kwargs):
                 MSG = f"""
 Hello! I am [{client.name}](tg://user?id={client.botid}).
 A Multi functional bot for telegram written in python3.
-<b>Owner</b>: <a href="https://t.me/r0ld3x">Roldex</a>
-<b>Support</b>: <a href="https://t.me/roldexverse">RoldexVerse</a>
-<b>Github</b>: <a href="https://github.com/r0ld3x">r0ld3x</a>
-(c) RoldexVerse
+<b>Owner</b>: <a href="https://t.me/DEVPHPJS">LUCIFER</a>
+<b>Support</b>: <a href="https://t.me/IXI_V1">Support</a>
+(c) Lucifer-CHK
 """
                 res = [
                     await event.builder.article(
