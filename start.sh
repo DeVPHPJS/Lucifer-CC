@@ -18,7 +18,7 @@ for pkg in ${packages[@]}; do
         echo ${pkg} is installed.
     else 
         # echo ${pkg} is not installed.
-        sudo apt-get install -y ${pkg}
+        apt-get install -y ${pkg}
     fi
 done
 
