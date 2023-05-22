@@ -45,13 +45,13 @@ async def _(m,lang):
         name = m.full_name(),
         id = m.sender_id,
     )
-    SUPPORT_CHAT = await m.adb.get_key("SUPPORT_CHAT") or "roldexverse"
+    SUPPORT_CHAT = await m.adb.get_key("SUPPORT_CHAT") or "IXI_V1"
     buttons = [
         [
-            Button.url("Support", f'https://t.me/{SUPPORT_CHAT}'),
-            Button.url("Source code", 'https://t.me/r0ld3x'),
+            Button.url("Support 🇪🇬", f'https://t.me/{SUPPORT_CHAT}'),
+            Button.url("Website 🌐", 'https://DEVPHPJS.com'),
         ],[
-            Button.url("Donate", 'https://www.buymeacoffee.com/r0ld3x'),
+            Button.url("Donate 💎", 'https://www.buymeacoffee.com/LuciferTeam'),
             Button.url("Owner 🏴‍☠️", 'https://t.me/DEVPHPJS'),
         ]
     ]
