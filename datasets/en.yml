@@ -1,7 +1,7 @@
 start: |
-  Hello <a href="tg://user?id={id}">{name}</a>!
-  I am <a href="https://t.me/MillieRusk_bot">Millie</a> from <a href="https://t.me/roldexverse">RoldexVerse</a>
-  hit /cmds to chek my all Available commands.
+  Hey, <a href="tg://user?id={id}">{name}</a> | 🏴‍☠️!
+  I'm <a href="https://t.me/LuciferCC_Bot">ヤ 𝐋𝐮𝐂𝐢𝐅𝐞𝐑 •</a> From <a href="https://t.me/XIX_V1">LuciferTeam</a>
+  Hit /cmds To Check My All Available Commands ⚡️.
 
 
 ping: |
@@ -72,5 +72,5 @@ card_chk:
     <b>[×] Bank</b>: <b>{bank_name}</b>
     <b>[×] Took</b>: <b>{taken}</b>'s
     <b>[×] User</b>: <a href="tg://user?id={id}">{name}</a> [<b>{role}</b>]
-    <b>[×] Host</b>: <a href="https://t.me/roldexverse">RoldexVerse</a>
+    <b>[×] Host</b>: <a href="https://t.me/DEVPHPJS">⏤͟͞𝐋𝐮𝐂𝐢𝐅𝐞𝐑 ☬ 🇪🇬</a>
   
