@@ -33,10 +33,10 @@ from mills.plugins import LIST
 IN_BTTS = [
     [
         Button.url(
-            "Owner",
-            url="https://t.me/r0ld3x",
+            "Owner 🏴‍☠️",
+            url="https://t.me/DEVPHPJS",
         ),
-        Button.url("Support", url="https://t.me/RoldexVerse"),
+        Button.url("Support 🇪🇬", url="https://t.me/IXI_V1"),
     ]
 ]
 
