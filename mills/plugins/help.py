@@ -41,13 +41,13 @@ async def _(m):
         ]
     if not match:
         text = f"""
-<b>Total Commands</b>: {count_keys(MOD_HELP)}
+<b>- Total Commands</b> : {count_keys(ADMIN_HELP)} ✅
 
-<b>User Name</b>: {m.sender.username}
-<b>User Id</b>: <code>{m.sender_id}</code>
-<b>Chat Id</b>: <code>{m.chat_id}</code>
+<b>Username</b> : @{m.sender.username} 🏴‍☠️.
+<b>User ID</b> : <code>{m.sender_id}</code> ❤️‍🩹.
+<b>Chat ID</b> : <code>{m.chat_id}</code> ❤️‍🩹.
 
-<i>Select One Button From Below.</i>
+<i>Select One Button From Below ⬇️.</i>
 """
         await m.reply(text,buttons=__buttons, file = BOT_PIC)
     else:
@@ -90,13 +90,13 @@ async def _(m):
         ]
                 ]
     text = f"""
-<b>Total Commands</b>: {count_keys(ADMIN_HELP)}
+<b>- Total Commands</b> : {count_keys(ADMIN_HELP)} ✅
 
-<b>User Name</b>: {m.sender.username}
-<b>User Id</b>: <code>{m.sender_id}</code>
-<b>Chat Id</b>: <code>{m.chat_id}</code>
+<b>Username</b> : @{m.sender.username} 🏴‍☠️.
+<b>User ID</b> : <code>{m.sender_id}</code> ❤️‍🩹.
+<b>Chat ID</b> : <code>{m.chat_id}</code> ❤️‍🩹.
 
-<i>Select One Button From Below.</i>
+<i>Select One Button From Below ⬇️.</i>
 """
     await m.reply(text,buttons=__buttons, file = BOT_PIC)
 
