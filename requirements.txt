@@ -24,7 +24,7 @@ asyncio
 names
 random-address
 fuzzywuzzy
-# python-Levenshtein
+python-Levenshtein
 opencv-python
 qrcode
 pillow
