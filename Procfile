@@ -1,1 +1,1 @@
-worker: python3.9 -m mills
+worker: python3 -m mills
