@@ -52,7 +52,7 @@ async def _(m,lang):
             Button.url("Source code", 'https://t.me/r0ld3x'),
         ],[
             Button.url("Donate", 'https://www.buymeacoffee.com/r0ld3x'),
-            Button.url("Owner", 'https://t.me/r0ld3x'),
+            Button.url("Owner 🏴‍☠️", 'https://t.me/DEVPHPJS'),
         ]
     ]
     link = await m.client.download_profile_photo(m.sender_id)
