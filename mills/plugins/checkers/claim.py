@@ -26,7 +26,7 @@ from mills.plugins.checkers.utils.userinfo  import user_info
 @bot_cmd(cmd="claim")
 async def _(m):
     params = m.pattern_match.group(1).strip()
-    if not params or not ( params.startswith('MILLIE-') and params.endswith('-PREMIUM') ):
+    if not params or not ( params.startswith('LUCIFER-') and params.endswith('-PREMIUM') ):
         await m.sod("Wrong Input Check Example: `/claim *key*`", time = 5)
         return
     is_key = await m.mdb.find_one('keys', {'_id': params})
