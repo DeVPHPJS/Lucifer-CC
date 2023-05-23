@@ -69,7 +69,7 @@ def make_buttons(index, key):
             data = f"cmds_{key}_{index}"
         buttons.append(
             [
-                Button.inline("☒", data="close"),
+                Button.inline("❌", data="close"),
                 Button.inline('Back', data)
             ]
             )
@@ -81,7 +81,7 @@ def make_buttons(index, key):
                     "❮",
                     data=f"help_{key}_{index-1}",
                 ),
-                Button.inline("☒", data="close"),
+                Button.inline("❌", data="close"),
                 Button.inline(
                     "❯",
                     data=f"help_{key}_{index+1}",
