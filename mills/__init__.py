@@ -32,7 +32,7 @@ from telethon.sessions import StringSession
 
 start_deploy = """
             ----------------------------------------------------------------------
-                Deploying Millie! Visit @RoldexVerse for updates!!
+                Deploying Lucifer! Visit @XIX_V1 for updates!!
             ----------------------------------------------------------------------
 """
 
