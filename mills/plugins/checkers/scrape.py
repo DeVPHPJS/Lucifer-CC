@@ -1,8 +1,8 @@
 """
-≛ <b>Commands Available</b> ≛
+≛ <b>Commands Available ✅</b> ≛
 
 ──────────────────────
-<code>/scrape</code> username amount  - Scrape amount no. cards from the username
+<code>/scr</code> username amount  - Scrape amount no. cards from the username
 ──────────────────────
 
 ©<a href="https://t.me/roldexverse">RoldexVerse</a>
@@ -31,7 +31,7 @@ ccs = []
 
 
 
-@bot_cmd(cmd="scrape", text_only = True)
+@bot_cmd(cmd="scr", text_only = True)
 async def _(m):
     inp = m.pattern_match.group(1).strip()
     if len(inp) < 1:
@@ -57,9 +57,9 @@ async def _(m):
     try:
         amount = int(amount_str)
     except:
-        return await m.sod("Amount must be number and < 2000.\nFormat: .scrape roldexversechats 50", time = 10)
-    if  amount > 2000 or amount < 1:
-        return await m.sod("Amount must be number and < 2000.\nFormat: .scrape roldexversechats 50", time = 10)
+        return await m.sod("Amount must be number and < 10000.\nFormat : .scr LuciferSCR 50", time = 10)
+    if  amount > 10000 or amount < 1:
+        return await m.sod("Amount must be number and < 10000.\nFormat : .scr LuciferSCR 50", time = 10)
     try:
         ent = await uclient.get_entity(channel)
         if not ent:
@@ -91,14 +91,14 @@ async def _(m):
         mess = f"""
 ✅ CC Scrapped Successfully!
 
-<b>Source</b> -» <code>{ent.username}</code> |<code>{get_peer_id(ent.id)}</code>
+<b>Source</b> -» <code>{ent.username}</code> | <code>{get_peer_id(ent.id)}</code>
 <b>Source Type</b> -» <code>{entType}</code>
 <b>Amount</b> -» <code>{amount}</code> cards
-<b>Skipped</b> -» <code>{amount - len(all_cards)}</code> cards
-<b>CC Found</b> -» <code>{len(all_cards)}</code> cards
+<b>Skipped</b> -» <code>{amount - len(all_cards)}</code>
+<b>CC Found</b> -» <code>{len(all_cards)}</code>
 
 <b>Scrapped By</b> -» <a href= "tg://user?id={m.sender.id}">{m.sender.id}</a>
-<b>Host</b> -» <a href="https://t.me/roldexverse">RoldexVerse</a>
+<b>Host</b> -» <a href="https://t.me/DEVPHPJS">⏤͟͞𝐋𝐮𝐂𝐢𝐅𝐞𝐑 ☬ 🇪🇬</a>
 """
         is_true = await m.sod(mess , file = f'{len(all_cards)}x{ent.username if ent.username else ""}.txt')
         if is_true:
