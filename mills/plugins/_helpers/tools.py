@@ -63,7 +63,7 @@ def make_buttons(index, key):
         buttons = cols[0] if cols else []
         index = 0
     if index == 0  and len(cols) == 1:
-        if key in ["Plugins 🌀", "Checkers 🔱"]:
+        if key in ["plugins", "checkers"]:
             data = f"make_cmd_again_{key}"
         else:
             data = f"cmds_{key}_{index}"
