@@ -18,7 +18,7 @@ client.run(startup())
 
 suc_msg = """
             ----------------------------------------------------------------------
-                Millie has been deployed! Visit @RoldexVerse for updates!!
+                Lucifer has been deployed! Visit @RoldexVerse for updates!!
             ----------------------------------------------------------------------
 """
 
