@@ -1,12 +1,12 @@
 """
-≛ <b>Commands Available</b> ≛
+≛ <b>Commands Available ✅</b> ≛
 
-- <code>/ip</code> ipAddress : Get info about that IP address.
+- <code>/ip <IP></code> ↝ Get info about that IP address ⚡️.
 ──────────────────────
-- <code>/phone <phonenumber></code>: Get phone number information with + and country code.
+- <code>/phone <NUMBER></code> ↝ Get phone number information with + and country code 💎.
 ──────────────────────
 
-©<a href="https://t.me/roldexverse">RoldexVerse</a>
+© 2023 | <a href="https://t.me/DEVPHPJS">⏤͟͞𝐋𝐮𝐂𝐢𝐅𝐞𝐑 ☬ 🇪🇬</a>
 """
 import inspect
 import io
