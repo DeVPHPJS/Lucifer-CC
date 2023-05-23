@@ -3,7 +3,7 @@ from mills import sdb
 
 def insert_gates(sdb):
     dict = [
-    {"_id": "chk", "status": True, "status_logo": "✅", "gate_type": "auth", "cmd_name": "chk", "gate_name": "Stripe Auth", "made_by_id": 5871846598, "made_by_name": "Lucifer", "is_paid": False, "date": "2023-05-23"},
+    {"_id": "chk", "status": True, "status_logo": "✅", "gate_type": "auth", "cmd_name": "chk", "gate_name": "Stripe Auth", "made_by_id": 5871846598, "made_by_name": "Lucifer", "is_paid": False, "date": "2023-05-23"}
     #{"_id": "au", "status": True, "status_logo": "✅", "gate_type": "auth", "cmd_name": "au", "gate_name": "Stripe Aut", "made_by_id": 1317173146, "made_by_name": "Roldex", "is_paid": False, "date": "2022-05-29"},
     #{"_id": "ad", "status": True, "status_logo": "✅", "gate_type": "charge", "charge_amount": "56", "cmd_name": "ad", "gate_name": "Adyen ", "made_by_id": 1317173146, "made_by_name": "Roldex",         "is_paid": True, "date": "2022-05-29"},
     #{"_id": "mass", "status": True, "status_logo": "✅", "gate_type": "mass", "cmd_name": "mass", "gate_name": "Stripe", "made_by_id": 1317173146, "made_by_name": "Roldex", "is_paid": True, "date": "2022-05-29"},
