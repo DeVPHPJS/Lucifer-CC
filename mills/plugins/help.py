@@ -1,13 +1,13 @@
 """
-≛ <b>Commands Available</b> ≛
+≛ <b>Commands Available ✅</b> ≛
 
 ──────────────────────
-- <code>/cmds</code>: Get all available commands with detailed information with telegraph.
+❖ <code>/cmds</code> ↝ Get all available commands with detailed information with telegraph.
 ──────────────────────
-- <code>/help<code>: Get all available commands with detailed information.
+❖ <code>/help<code> ↝ Get all available commands with detailed information.
 ──────────────────────
 
-©<a href="https://t.me/roldexverse">RoldexVerse</a>
+© 2023 | <a href="https://t.me/DEVPHPJS">⏤͟͞𝐋𝐮𝐂𝐢𝐅𝐞𝐑 ☬ 🇪🇬</a>
 """
 import inspect
 import io
@@ -36,16 +36,16 @@ async def _(m):
                 for x in sorted(MOD_HELP.keys())
             ],
             [
-                Button.inline("☒", data="close"),
+                Button.inline("❌", data="close"),
             ]
         ]
     if not match:
         text = f"""
-<b>- Total Commands ✅</b> : {count_keys(ADMIN_HELP)} ✅
+<b>- Total Commands</b> ↝ {count_keys(ADMIN_HELP)} ✅
 
-<b>Username</b> : @{m.sender.username} 🏴‍☠️.
-<b>User ID</b> : <code>{m.sender_id}</code> ❤️‍🩹.
-<b>Chat ID</b> : <code>{m.chat_id}</code> ❤️‍🩹.
+<b>Username</b> ↝ @{m.sender.username} 🏴‍☠️.
+<b>User ID</b> ↝ <code>{m.sender_id}</code> ❤️‍🩹.
+<b>Chat ID</b> ↝ <code>{m.chat_id}</code> ❤️‍🩹.
 
 <i>Select One Button From Below ⬇️.</i>
 """
@@ -86,15 +86,15 @@ async def _(m):
             Button.inline("Open", data = f"acmds")
         ],
         [
-            Button.inline("☒", data="closeadmin"),
+            Button.inline("❌", data="closeadmin"),
         ]
                 ]
     text = f"""
 <b>- Total Commands</b> : {count_keys(ADMIN_HELP)} ✅
 
-<b>Username</b> : @{m.sender.username} 🏴‍☠️.
-<b>User ID</b> : <code>{m.sender_id}</code> ❤️‍🩹.
-<b>Chat ID</b> : <code>{m.chat_id}</code> ❤️‍🩹.
+<b>Username</b> ↝ @{m.sender.username} 🏴‍☠️.
+<b>User ID</b> ↝ <code>{m.sender_id}</code> ❤️‍🩹.
+<b>Chat ID</b> ↝ <code>{m.chat_id}</code> ❤️‍🩹.
 
 <i>Select One Button From Below ⬇️.</i>
 """
