@@ -1,13 +1,13 @@
 """
-≛ <b>Commands Available</b> ≛
+≛ <b>Commands Available ✅</b> ≛
 
 ──────────────────────
-- <code>/encode</code>: Base64 encode the given text.
+❖ <code>/encode</code> ↝ Base64 Encode 🏴‍☠️.
 ──────────────────────
-- <code>/decode</code>: base64 decode the given hash.
+❖ <code>/decode</code> ↝ base64 Decode Hash 💡.
 ──────────────────────
 
-©<a href="https://t.me/roldexverse">RoldexVerse</a>
+© 2023 | <a href="https://t.me/DEVPHPJS">⏤͟͞𝐋𝐮𝐂𝐢𝐅𝐞𝐑 ☬ 🇪🇬</a>
 """
 import inspect
 import io
