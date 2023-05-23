@@ -122,9 +122,9 @@ async def _(m):
         user = await uclient.get_entity(id)
         if user.stringify().split('(')[0] == "User":
             text = f"""
-<b>User</b>: <a href="tg://user?id={sender.id}">{get_display_name(sender)}</a>
-<b>Chat Id</b>: <code>{m.chat.id}</code>
-<b>User Id</b>: <code>{user.id}</code>
+<b>Username</b> : <a href="tg://user?id={sender.id}">{get_display_name(sender)}</a> 🏴‍☠️.
+<b>Chat ID</b> : <code>{m.chat_id}</code> ❤️‍🩹.
+<b>User ID</b> : <code>{user_id}</code> ❤️‍🩹.
     """     
             return await m.sod(text)
         else:
@@ -133,17 +133,17 @@ async def _(m):
         rm = await m.get_reply_message()
         sender = await rm.get_sender()
         text = f"""
-<b>User</b>: <a href="tg://user?id={sender.id}">{get_display_name(sender)}</a>
-<b>Chat Id</b>: <code>{m.chat.id}</code>
-<b>User Id</b>: <code>{sender.id}</code>
+<b>Username</b> : <a href="tg://user?id={sender.id}">{get_display_name(sender)}</a> 🏴‍☠️.
+<b>Chat ID</b> : <code>{m.chat_id}</code> ❤️‍🩹.
+<b>User ID</b> : <code>{user_id}</code> ❤️‍🩹.
 """     
         return await m.sod(text)
     else:
         sender = await m.get_sender()
         text = f"""
-<b>User</b>: <a href="tg:user?id={sender.id}">{get_display_name(sender)}</a>
-<b>Chat Id</b>: <code>{m.chat.id}</code>
-<b>User Id</b>: <code>{sender.id}</code>
+<b>Username</b> : <a href="tg://user?id={sender.id}">{get_display_name(sender)}</a> 🏴‍☠️.
+<b>Chat ID</b> : <code>{m.chat_id}</code> ❤️‍🩹.
+<b>User ID</b> : <code>{user_id}</code> ❤️‍🩹.
 """     
         return await m.sod(text)
         
