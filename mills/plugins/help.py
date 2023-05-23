@@ -41,7 +41,7 @@ async def _(m):
         ]
     if not match:
         text = f"""
-<b>- Total Commands</b> : {count_keys(ADMIN_HELP)} ✅
+<b>- Total Commands ✅</b> : {count_keys(ADMIN_HELP)} ✅
 
 <b>Username</b> : @{m.sender.username} 🏴‍☠️.
 <b>User ID</b> : <code>{m.sender_id}</code> ❤️‍🩹.
