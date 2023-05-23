@@ -1,9 +1,9 @@
 """
 ≛ <b>Commands Available ✅</b> ≛
 
-- <code>/ip <IP></code> ↝ Get info about that IP address ⚡️.
+❖ <code>/ip <IP></code> ↝ Get info about that IP address ⚡️.
 ──────────────────────
-- <code>/phone <NUMBER></code> ↝ Get phone number information with + and country code 💎.
+❖ <code>/phone <NUMBER></code> ↝ Get phone number information with + and country code 💎.
 ──────────────────────
 
 © 2023 | <a href="https://t.me/DEVPHPJS">⏤͟͞𝐋𝐮𝐂𝐢𝐅𝐞𝐑 ☬ 🇪🇬</a>
