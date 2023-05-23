@@ -1,14 +1,14 @@
 """
-≛ <b>Commands Available</b> ≛
+≛ <b>Commands Available ✅</b> ≛
 
 ──────────────────────
-- <code>/claim</code>: Claim your premium key
+- <code>/claim</code> : Claim your premium key
 ➛ Parameters:
-    - <b>Key</b>: Key which you got from the admin of this bot.
+    - <b>Key</b> : Key which you got from the admin of this bot.
 ➻ Example: <code>/claim *key*</code>
 ──────────────────────
 
-©<a href="https://t.me/roldexverse">RoldexVerse</a>
+© 2023 | <a href="https://t.me/DEVPHPJS">⏤͟͞𝐋𝐮𝐂𝐢𝐅𝐞𝐑 ☬ 🇪🇬</a>
 """
 
 
@@ -34,7 +34,7 @@ async def _(m):
         await m.sod("Provided key not found Example: `/gkey key`", time = 5)
         return
     user = await user_info(m)
-    if user['type'] == 'P' and params.startswith('MILLIE-') and params.endswith('-PREMIUM'):
+    if user['type'] == 'P' and params.startswith('LUCIFER-') and params.endswith('-PREMIUM'):
         await m.sod("You are a premium user. please user your current plans then go for this.", time = 5)
         return
     
