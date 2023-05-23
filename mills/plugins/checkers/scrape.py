@@ -93,7 +93,7 @@ async def _(m):
 
 <b>Source</b> -» <code>{ent.username}</code> | <code>{get_peer_id(ent.id)}</code>
 <b>Source Type</b> -» <code>{entType}</code>
-<b>Amount</b> -» <code>{amount}</code> cards
+<b>Amount</b> -» <code>{amount}</code>
 <b>Skipped</b> -» <code>{amount - len(all_cards)}</code>
 <b>CC Found</b> -» <code>{len(all_cards)}</code>
 
