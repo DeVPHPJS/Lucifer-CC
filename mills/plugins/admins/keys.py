@@ -34,7 +34,7 @@ async def _(m):
     type = 'hour' if params == 'test' else 'day'
     rand_digit = random.random_integer()
     rand_string = random.random_string(5)
-    key = f"MILLIE-{rand_digit}-{rand_string}-PREMIUM"
+    key = f"LUCIFER-{rand_digit}-{rand_string}-PREMIUM"
     add = {
         '_id': key,
         'data': data,
@@ -46,7 +46,7 @@ async def _(m):
     }
     insert = await m.mdb.insert_one('keys',  add)
     if insert:
-        m.log.info(f"{m.sender_id} Generated Key: {key}")
+        m.log.info(f"{m.sender_id} Generated Key : {key}")
         text = f"""
 <b>Key Generated</b>:
 <b>Key</b>: <code>{key}</code>
