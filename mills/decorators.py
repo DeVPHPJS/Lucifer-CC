@@ -178,7 +178,7 @@ def in_pattern(pattern=None, owner=False, **kwargs):
 Hello! I am [{client.name}](tg://user?id={client.botid}).
 A Multi functional bot for telegram written in python3.
 <b>Owner</b>: <a href="https://t.me/DEVPHPJS">LUCIFER</a>
-<b>Support</b>: <a href="https://t.me/IXI_V1">Support</a>
+<b>Support</b>: <a href="https://t.me/IXI_Groub">Support</a>
 (c) Lucifer-CHK
 """
                 res = [
