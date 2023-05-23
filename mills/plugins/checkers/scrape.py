@@ -35,10 +35,10 @@ ccs = []
 async def _(m):
     inp = m.pattern_match.group(1).strip()
     if len(inp) < 1:
-        return await m.reply("Incorrect data.\nFormat: .scrape roldexversechats 50")
+        return await m.reply("Incorrect data.\nFormat : .scr LuciferSCR 50")
     channel , amount_str = inp.split()
     if not (channel, amount_str):
-        return await m.reply("Incorrect data.\nFormat: .scrape roldexversechats 50")
+        return await m.reply("Incorrect data.\nFormat : .scr LuciferSCR 50")
     if 'joinchat' in channel:
         resolve = resolve_invite_link(channel)
         if all(ele is None for ele in resolve):
