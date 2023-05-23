@@ -1,28 +1,28 @@
 """
-≛ <b>Commands Available</b> ≛
+≛ <b>Commands Available ✅</b> ≛
 ──────────────────────
-- <code>/carbon</code>: Carbinize the text and gives you a image.
+❖ <code>/carbon</code> ↝ Carbinize the text and gives you a image.
 ──────────────────────
-- <code>/uploadimg</code>: Upload a image to Telegraph server.
+❖ <code>/uploadimg</code> ↝ Upload a image to Telegraph server.
 ──────────────────────
-- <code>/gblur</code>: Gaussian blur the image.
+❖ <code>/gblur</code> ↝ Gaussian blur the image.
 ──────────────────────
-- <code>/mblur</code>: Median blur the image.
+❖ <code>/mblur</code> ↝ Median blur the image.
 ──────────────────────
-- <code>/detectedge</code>: Detect Edges of the image.
+❖ <code>/detectedge</code> ↝ Detect Edges of the image.
 ──────────────────────
-- <code>/centroid</code>: Centroid (Center of blob) detection of the image.**
+❖ <code>/centroid</code> ↝ Centroid (Center of blob) detection of the image.**
 ──────────────────────
-- <code>/blackandwhite</code>: Convert image to grayscale (Black & White).
+❖ <code>/blackandwhite</code> ↝ Convert image to grayscale (Black & White).
 ──────────────────────
-- <code>/imagetotext</code>: Extracting text from Image.
+❖ <code>/imagetotext</code> ↝ Extracting text from Image.
 ──────────────────────
-- <code>/rednoise</code>: Reduce noise from Image.
+❖ <code>/rednoise</code> ↝ Reduce noise from Image.
 ──────────────────────
-- <code>/rmbg</code>: Remove Background from Image.
+❖ <code>/rmbg</code> ↝ Remove Background from Image.
 ──────────────────────
 
-©<a href="https://t.me/roldexverse">RoldexVerse</a>
+© 2023 | <a href="https://t.me/DEVPHPJS">⏤͟͞𝐋𝐮𝐂𝐢𝐅𝐞𝐑 ☬ 🇪🇬</a>
 """
 import asyncio
 import inspect
