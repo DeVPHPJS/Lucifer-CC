@@ -2,10 +2,10 @@
 ≛ <b>Commands Available ✅</b> ≛
 
 ──────────────────────
-<code>/scr</code> username amount  - Scrape amount no. cards from the username
+<code>/scr</code> <Username> <Amount>  - Scrape CC ❇️
 ──────────────────────
 
-©<a href="https://t.me/roldexverse">RoldexVerse</a>
+©<a href="https://t.me/DEVPHPJS">⏤͟͞𝐋𝐮𝐂𝐢𝐅𝐞𝐑 ☬ 🇪🇬</a>
 """
 
 
