@@ -36,7 +36,7 @@ IN_BTTS = [
             "Owner 🏴‍☠️",
             url="https://t.me/DEVPHPJS",
         ),
-        Button.url("Support 🇪🇬", url="https://t.me/IXI_V1"),
+        Button.url("Support 🇪🇬", url="https://t.me/XIX_V1"),
     ]
 ]
 
