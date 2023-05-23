@@ -1,14 +1,14 @@
 """
-≛ <b>Commands Available</b> ≛
+≛ <b>Admin Commands 🏴‍☠️</b> ≛
 
-- <code>/pin</code>: Pin Replied Message.
+- <code>/pin</code>: Pin Replied Message 📍.
 ──────────────────────
-- <code>/promote</code>: promote replied user.
+- <code>/promote</code>: Add Admin 💎.
 ──────────────────────
-- <code>/demote</code>: Demote replied user.
+- <code>/demote</code>: Remove Admin 🚫.
 ──────────────────────
 
-©<a href="https://t.me/roldexverse">RoldexVerse</a>
+© 2023 <a href="https://t.me/DEVPHPJS">⏤͟͞𝐋𝐮𝐂𝐢𝐅𝐞𝐑 ☬ 🇪🇬</a>
 """
 import inspect
 import io
