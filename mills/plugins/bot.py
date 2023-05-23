@@ -1,19 +1,19 @@
 """
-≛ <b>Commands Available</b> ≛
+≛ <b>Commands Available ✅</b> ≛
 
 ──────────────────────
-- <code>/start</code>: Check if bot is working or not.
+❖ <code>/start</code> ↝ Start Bot ✅.
 ──────────────────────
-- <code>/ping</code>: Check bot speed.
+❖ <code>/ping</code> ↝ Ping Tester ⚡️.
 ──────────────────────
-- <code>/json</code>: Get json serialized data.
+❖ <code>/json</code> ↝ Get JSON Serialized Data 🏴‍☠️.
 ──────────────────────
-- <code>/info</code>: Get information about the user.
+❖ <code>/info</code> ↝ Get Information User 💡.
 ──────────────────────
-- <code>/calender</code>: Get current month calender.
+❖ <code>/calender</code> ↝ Get Current Month 📅.
 ──────────────────────
 
-©<a href="https://t.me/roldexverse">RoldexVerse</a>
+© 2023 | <a href="https://t.me/DEVPHPS">⏤͟͞𝐋𝐮𝐂𝐢𝐅𝐞𝐑 ☬ 🇪🇬</a>
 """
 import calendar
 from datetime import datetime
