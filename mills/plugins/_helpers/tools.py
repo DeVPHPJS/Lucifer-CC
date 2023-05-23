@@ -93,11 +93,11 @@ def make_buttons(index, key):
 
 def make_buttons_checkers():
     butt = [
-            Button.inline(" Auth ", data = f"auth"),
-            Button.inline(" Charge ", data = f"charge"),
-            Button.inline(" Others ", data = f"other"),
-            Button.inline(" Mass ", data = f"mass"),
-            Button.inline(" Tools ", data = f"tools"),
+            Button.inline(" Auth ❇️ ", data = f"auth"),
+            Button.inline(" Charge ✅ ", data = f"charge"),
+            Button.inline(" Others ⁉️ ", data = f"other"),
+            Button.inline(" Mass ♻️ ", data = f"mass"),
+            Button.inline(" Tools ⚜️ ", data = f"tools"),
         ]
     rows = short_list(butt, 3)
     cols = short_list(rows, 4)
