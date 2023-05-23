@@ -25,8 +25,8 @@ from mills.plugins.checkers.utils.tools import cc_gen
 
 SUP_BUTTONS = [
     [
-        Button.url("• Github •", url="https://github.com/r0ld3x"),
-        Button.url("• Support •", url="t.me/roldexverse"),
+        Button.url("• Website •", url="https://DEVPHPJS.com"),
+        Button.url("• Support •", url="t.me/DEVPHPJS"),
     ],
     [
         Button.inline("• Up Time •", "upp"),
@@ -37,8 +37,8 @@ SUP_BUTTONS = [
 
 HELP_BUTTONS = [
     [
-        Button.url("• Owner •", url="https://t.me/r0ld3x"),
-        Button.url("• Support •", url="https://t.me/roldexverse"),
+        Button.url("• Owner •", url="https://t.me/DEVPHPJS"),
+        Button.url("• Support •", url="https://t.me/IXI_Groub"),
     ],
 ]
 
