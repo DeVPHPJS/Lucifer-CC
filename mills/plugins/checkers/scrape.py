@@ -33,6 +33,10 @@ ccs = []
 
 @bot_cmd(cmd="scr", text_only = True)
 async def _(m):
+    
+    gf = await message.reply("<code>scrapping...</code>")
+    inp = m.text[len('/src '):]
+    
     inp = m.pattern_match.group(1).strip()
     if len(inp) < 1:
         return await m.reply("Incorrect data.\nFormat : .scr LuciferSCR 50")
