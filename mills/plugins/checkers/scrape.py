@@ -33,7 +33,7 @@ ccs = []
 
 @bot_cmd(cmd="scr", text_only = True)
 async def _(m):
-    gf = await m.reply("<code>𝖲𝖼𝗋𝖺𝗉𝗉𝗂𝗇𝗀 𝖭𝗈𝗐...🏴‍☠️🔥</code>")
+    #gf = await m.reply("<code>𝖲𝖼𝗋𝖺𝗉𝗉𝗂𝗇𝗀 𝖭𝗈𝗐...🏴‍☠️🔥</code>")
     #inp = m.pattern_match.group(1).strip()
     inp = m.text[len('/scr '):]
     if len(inp) < 1:
