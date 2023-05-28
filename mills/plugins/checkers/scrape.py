@@ -58,9 +58,9 @@ async def _(m):
     try:
         amount = int(amount_str)
     except:
-        return await m.sod("Amount must be number and < 10000.\nFormat : .scr LuciferSCR 50", time = 10)
-    if  amount > 10000 or amount < 1:
-        return await m.sod("Amount must be number and < 10000.\nFormat : .scr LuciferSCR 50", time = 10)
+        return await m.sod("Amount must be number and < 500.\nFormat : .scr LuciferSCR 50", time = 10)
+    if  amount > 5000 or amount < 1:
+        return await m.sod("Amount must be number and < 5000.\nFormat : .scr LuciferSCR 50", time = 10)
     try:
         ent = await uclient.get_entity(channel)
         if not ent:
