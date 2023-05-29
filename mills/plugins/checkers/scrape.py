@@ -31,7 +31,7 @@ ccs = []
 
 
 
-@bot_cmd(cmd="scrape", text_only = True)
+@bot_cmd(cmd="scr", text_only = True)
 async def _(m):
     inp = m.pattern_match.group(1).strip()
     if len(inp) < 1:
