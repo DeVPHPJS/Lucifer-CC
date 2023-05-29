@@ -35,14 +35,14 @@ ccs = []
 async def _(m):
     inp = m.pattern_match.group(1).strip()
     if len(inp) < 1:
-        return await m.reply("Incorrect data.\nFormat: .scrape roldexversechats 50")
+        return await m.reply("ヤ 𝘞𝘙𝘰𝘯𝘎 𝘜𝘴𝘦 ⚠️️\nヤ 𝘕𝘰𝘳𝘔𝘢𝘭 𝘚𝘤𝘙𝘢𝘗𝘦𝘳 : /scr LuciferSCR 100")
     channel , amount_str = inp.split()
     if not (channel, amount_str):
-        return await m.reply("Incorrect data.\nFormat: .scrape roldexversechats 50")
+        return await m.reply("ヤ 𝘞𝘙𝘰𝘯𝘎 𝘜𝘴𝘦 ⚠️️\nヤ 𝘕𝘰𝘳𝘔𝘢𝘭 𝘚𝘤𝘙𝘢𝘗𝘦𝘳 : /scr LuciferSCR 100")
     if 'joinchat' in channel:
         resolve = resolve_invite_link(channel)
         if all(ele is None for ele in resolve):
-            return await m.reply("Invalid link.")
+            return await m.reply("Link Not Work ❌.")
         else:
             chat_hash = re.findall('joinchat/(.*\w)', channel)
             if not chat_hash:
@@ -57,9 +57,9 @@ async def _(m):
     try:
         amount = int(amount_str)
     except:
-        return await m.sod("Amount must be number and < 2000.\nFormat: .scrape roldexversechats 50", time = 10)
-    if  amount > 2000 or amount < 1:
-        return await m.sod("Amount must be number and < 2000.\nFormat: .scrape roldexversechats 50", time = 10)
+        return await m.sod("Amount must be number and < 10000.\nFormat: .scrape roldexversechats 50", time = 10)
+    if  amount > 10000 or amount < 1:
+        return await m.sod("Amount must be number and < 10000.\nFormat: .scrape roldexversechats 50", time = 10)
     try:
         ent = await uclient.get_entity(channel)
         if not ent:
@@ -89,16 +89,16 @@ async def _(m):
     
     if len(all_cards) > 1:
         mess = f"""
-✅ CC Scrapped Successfully!
+✅ [ ֆ - Successful! ]
 
-<b>Source</b> -» <code>{ent.username}</code> |<code>{get_peer_id(ent.id)}</code>
-<b>Source Type</b> -» <code>{entType}</code>
-<b>Amount</b> -» <code>{amount}</code> cards
-<b>Skipped</b> -» <code>{amount - len(all_cards)}</code> cards
-<b>CC Found</b> -» <code>{len(all_cards)}</code> cards
+<b>[ֆ] Source</b> -» <code>{ent.username}</code>
+<b>[ֆ] Type</b> -» <code>{entType}</code>
+<b>[ֆ] Amount</b> -» <code>{amount}</code> cards
+<b>[>] Skipped</b> -» <code>{amount - len(all_cards)}</code> cards
+<b>[ֆ] CC Found</b> -» <code>{len(all_cards)}</code> cards
 
-<b>Scrapped By</b> -» <a href= "tg://user?id={m.sender.id}">{m.sender.first_name}</a>
-<b>Host</b> -» <a href="https://t.me/DEVPHPJS">⏤͟͞𝐋𝖚𝐂𝖎𝐅𝖊𝐑 ֆ 🇪🇬</a>
+<b>[🏴‍☠️] Scrapped By</b> -» <a href= "tg://user?id={m.sender.id}">{m.sender.first_name}</a>
+<b>[⚡️] Host</b> -» <a href="https://t.me/DEVPHPJS">⏤͟͞𝐋𝖚𝐂𝖎𝐅𝖊𝐑 ֆ 🇪🇬</a>
 """
         is_true = await m.sod(mess , file = f'{len(all_cards)}x{ent.username if ent.username else ""}.txt')
         if is_true:
