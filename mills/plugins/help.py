@@ -36,16 +36,15 @@ async def _(m):
                 for x in sorted(MOD_HELP.keys())
             ],
             [
-                Button.inline("❌", data="close"),
+                Button.inline("•| 𝐂𝐥𝐨𝐬𝐞 ❌ |•", data="close"),
             ]
         ]
     if not match:
         text = f"""
-<b>- Total Commands</b> ↝ {count_keys(ADMIN_HELP)} ✅
+<b>- Total Commands</b> ↝ [ {count_keys(ADMIN_HELP)} ] ✅
 
 <b>Username</b> ↝ @{m.sender.username} 🏴‍☠️.
 <b>User ID</b> ↝ <code>{m.sender_id}</code> ❤️‍🩹.
-<b>Chat ID</b> ↝ <code>{m.chat_id}</code> ❤️‍🩹.
 
 <i>Select One Button From Below ⬇️.</i>
 """
@@ -86,7 +85,7 @@ async def _(m):
             Button.inline("Open", data = f"acmds")
         ],
         [
-            Button.inline("❌", data="closeadmin"),
+            Button.inline("•| 𝐂𝐥𝐨𝐬𝐞 ❌ |•", data="closeadmin"),
         ]
                 ]
     text = f"""
@@ -94,7 +93,6 @@ async def _(m):
 
 <b>Username</b> ↝ @{m.sender.username} 🏴‍☠️.
 <b>User ID</b> ↝ <code>{m.sender_id}</code> ❤️‍🩹.
-<b>Chat ID</b> ↝ <code>{m.chat_id}</code> ❤️‍🩹.
 
 <i>Select One Button From Below ⬇️.</i>
 """
